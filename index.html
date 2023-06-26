@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-News-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Nav Bar -->
+        <nav class="nav-bar flex">
+            <a href="#" onclick="reload()">
+            <img src="/myNewsLogo.png" alt="News-Logo" class="logo cursor" style="margin-top: 3px;">
+        </a>
+        <ul class="list flex">
+            <li id="Technology" onclick="onNavBar(`Technology`)">Technology</li>
+            <li id="Education"onclick="onNavBar(`Education`)">Education</li>
+            <li id="Politics"onclick="onNavBar(`Politics`)">Politics</li>
+            <li id="Sports"onclick="onNavBar(`Sports`)">Sports</li>
+        </ul>
+        <div class="input-box ">
+       <input type="text" placeholder="Search" id="input-box"><button class="Button cursor" id="btn">Search</button>
+    </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="cards-container flex" id="cards-container">
+
+        </div>
+    </main>
+    <template id="news-template">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400X200" alt="newsImage" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="title">This is THe Title</h3>
+                <h6 id="news-source">26 08 3202</h6>
+                <p class="news-decs" id="news-decs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, voluptates ipsa quo exercitationem quaerat obcaecati. Voluptate obcaecati excepturi ad mollitia!</p>
+            </div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>
