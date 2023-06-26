@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300&family=Source+Code+Pro:ital,wght@0,200;0,300;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+/* font-family: 'Source Code Pro', monospace; */
+}
+:root{
+--primary-color:#35185a;
+--secondary-color:#ffffff;
+--tertiary-color:#000000;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: var(--secondary-color);
+}
+.cursor{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style: none;
+    color: var(--primary-color);
+}
+ul li{
+margin: 0px 29px;
+cursor: pointer;
+transition: 0.1s ease-in-out;
+}
+ul li:hover{
+    text-decoration: underline;
+    transform: translateY(-2px);
+    }
+ul li.active{
+color: var(--tertiary-color);
+}
+.logo{
+    width: 185px;
+}
+.nav-bar{
+   align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px var(--primary-color);
+}
+input{
+padding: 4px;
+border: none;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+box-shadow: 2px 2px 4px#35185a;
+}
+button{
+    color: var(--primary-color);
+    padding: 4px;
+    border: none;
+    border: none;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+background-color: var(--secondary-color);
+box-shadow: 2px 2px 4px var(--tertiary-color);
+margin-left:  5px;
+}
+button:hover{
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 4px var(--primary-color);
+}
+main{
+    padding-block: 20px;
+    margin-top: 80px;
+}
+.cards-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+    margin: 0px 23px;
+}
+.card{
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 2px 2px 4px var(--tertiary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+.card:hover{
+    box-shadow: 4px 4px 8px var(--primary-color);
+    background-color: #f1eff4;
+    transform: translatey(2px);
+}
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-content{
+padding: 33px;
+}
+#news-source{
+    margin-block: 12px;
+}
