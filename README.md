@@ -45,5 +45,5 @@ Let's keep the world informed and empowered with the latest news!
 The development of this News Website was carried out by Sagar Baryekar. Special thanks to the creators of the News API for providing the invaluable service that makes this website possible.
 
 
-![Website Image](/Screenshot 2023-07-31 132917.png)
+
 
