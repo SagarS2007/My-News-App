@@ -1,4 +1,17 @@
 // console.log("Hello World");
+
+
+
+/*
+The News Api Which I Have Used Here Is Of Development Version
+so it doesnt Work on Deployed Website but yes it does work on
+local system, also if i would have wnated to show the data i would have need
+to pay certain Amount to Them But Yess I Didnt, So Website Does Work but To 
+show the news I Have to Pay!
+*/
+
+
+
 window.addEventListener(`load`, ()=>{
     fetchNews(`India`); 
 })
