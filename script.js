@@ -3,11 +3,10 @@
 
 
 /*
-The News Api Which I Have Used Here Is Of Development Version
-so it doesnt Work on Deployed Website but yes it does work on
-local system, also if i would have wnated to show the data i would have need
-to pay certain Amount to Them But Yess I Didnt, So Website Does Work but To 
-show the news I Have to Pay!
+The News Api Which I Have Used is Not Free as It does
+gives you the data on local servers but once you deployed it somewhere it wont work
+and it is not a good practice to use or pay on the projects Cause you are learner so Thats
+why i Havent Paid anything to the news api
 */
 
 
